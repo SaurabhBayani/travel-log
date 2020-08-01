@@ -2,8 +2,9 @@
 App to add travelling related logs
 
 # Steps to run:
-1. start mongodb service
-2. npx nodemon server/index.js
+1. brew services start mongodb-community
+2. cd server
+3. npm run dev
 
 # API's
 (GET) /logs/list -> List all travel logs
